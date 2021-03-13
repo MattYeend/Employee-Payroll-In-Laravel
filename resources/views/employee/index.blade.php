@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
-
 @section('content')
-
 	<hr>	
 		<h1 class="text-center">Employees</h1>	
 	<hr> 

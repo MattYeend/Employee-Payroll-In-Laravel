@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
 	<div class="col-lg-12">
 		<h1 class="page-header">Payroll : {{ $employee->name }}	
 			<!--input type="text" id="filterInput" onkeyup="filterFunction()" placeholder="Search Employees...."-->

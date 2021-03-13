@@ -1,11 +1,9 @@
 @extends('layouts.app')
 
-
 @section('content')
 	<div class="col-lg-12">
 		<h1 class="page-header">New Department</h1>
 	</div>
-	
 
 	<form action ="{{ route('departments.store') }}" method="POST">
 		{{ csrf_field() }}

@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
 	<div class="col-lg-12">
 		<h1 class="page-header">Edit Payroll : {{ $payroll->employee->name }}</h1>
 	</div>
@@ -47,5 +46,4 @@
 				<button class="btn btn-success" type="submit" >Update</button>
 			</div>
 		</form> 
-
 @endsection

@@ -1,12 +1,10 @@
 @extends('layouts.app')
 
-
 @section('content')
     <div class="col-lg-12">
 		<h1 class="page-header">Department: {{ $department->name }}</h1>
 	</div>
 		
-
 	<table class= "table table-hover">
 		<thead>
 			<th>Role</th>
@@ -28,9 +26,6 @@
 					<th colspan="5" class="text-center">No Roles assigned in this department yet</th>
 				</tr>
 			@endif
-		
 		</tbody>
-	
-	</table>
-		
+	</table>	
 @endsection

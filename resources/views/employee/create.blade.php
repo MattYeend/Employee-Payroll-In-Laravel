@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
-
 @section('content')
 	<div class="col-lg-12">
 		<h1 class="page-header">New Employee</h1>
@@ -60,7 +59,4 @@
 			<button class="btn btn-success" type="submit" >Create</button>
 		</div>
 	</form>
-	
-
-
 @endsection

@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
-
 @section('content')
     <div class="col-lg-12">
 		<h1 class="page-header">Bin</h1>
@@ -45,5 +44,5 @@
 			@endif
 		</tbody>
 	
-	</table>		
+	</table>
 @endsection
